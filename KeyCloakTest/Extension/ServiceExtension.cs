@@ -31,7 +31,7 @@ public static class ServiceExtension
     }
 
     //with keycloak
-    //public static IServiceCollection AddSwaggerWithKeycloak(this IServiceCollection services, IConfiguration configuration)
+    //public static IServiceCollection ConfigureSwaggerAuthentication(this IServiceCollection services, IConfiguration configuration)
     //{
     //    var options = configuration.GetSection("Keycloak").Get<KeycloakOptions>();
 

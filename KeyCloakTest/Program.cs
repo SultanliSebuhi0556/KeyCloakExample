@@ -8,7 +8,6 @@ builder.Services.Configure<KeycloakOptions>(builder.Configuration.GetSection(nam
 
 builder.Services.AddKeycloakAuthentications(builder.Configuration);
 builder.Services.ConfigureSwaggerAuthentication();
-//builder.Services.AddSwaggerWithKeycloak(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
